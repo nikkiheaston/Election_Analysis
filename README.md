@@ -1,7 +1,7 @@
 # Election Analysis in Python
 ## Overview of the Project
 ### Purpose
-The purpose of this project is to analyze voting and election information, specifically for 3 candidates and 3 counties (Jefferson, Denver, and Araphaoe), as presented in the csv file that accompanies this file. 
+The purpose of this project is to analyze voting and election information, specifically for 3 candidates (Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane) and 3 counties (Jefferson, Denver, and Araphaoe), as presented in the csv file that accompanies this file. 
 
 ### Results
 - The total number of votes cast in this election was 369,711.
@@ -28,6 +28,10 @@ The purpose of this project is to analyze voting and election information, speci
 I propose that, with some modification, the Python code used to conduct this analysis can be used in any election. 
 1. One way is to update the counties list and dictionaries with whatever geographical region is being analyzed. By district, city, region, state, nation, etc. Updating variable names with more generic terms would allow for any geography to be examined.
 
+![Results_by_County](https://github.com/nikkiheaston/Election_Analysis/blob/main/Resources/Counties_Summary.PNG)
 
+Changes to
+
+![Results_by_Geo](https://github.com/nikkiheaston/Election_Analysis/blob/main/Resources/Geo_Summary.PNG)
 
 2. This code can also be modified to analyze initiatives or measures. In place of candidates, we can create a dictionary with keys representing each measure, and values representing "Yes" or "No" votes to those measures. Votes would be totaled by an if statement with Boolean values - "Yes" meaning "True" and "No" meaning "False".
